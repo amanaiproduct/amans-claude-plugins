@@ -39,7 +39,9 @@ claude plugin enable explanatory-output-style@claude-plugins-official
 claude plugin enable plugin-dev@claude-plugins-official
 
 # This repo (clone first)
-git clone https://github.com/amanaiproduct/amans-claude-plugins ~/Projects/amans-claude-plugins
+git clone --recurse-submodules https://github.com/amanaiproduct/amans-claude-plugins ~/Projects/amans-claude-plugins
+# If already cloned without submodules:
+# git submodule update --init --recursive
 claude plugin add dir:~/Projects/amans-claude-plugins
 claude plugin enable plugin-dashboard@amans-plugins
 

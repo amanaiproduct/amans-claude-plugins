@@ -1,0 +1,3 @@
+[submodule "plugins/plugin-dashboard"]
+	path = plugins/plugin-dashboard
+	url = https://github.com/amanaiproduct/claude-plugin-dashboard.git
