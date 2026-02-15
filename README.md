@@ -1,65 +1,48 @@
 # Aman's Claude Code Setup
 
-My full Claude Code plugin and skill setup. Everything I use day-to-day for AI-assisted development.
+Everything I use day-to-day with Claude Code — plugins, skills, and settings.
 
-## My Custom Plugins
+## Install
 
-Plugins I built and maintain.
+Paste this repo URL into Claude Code and ask it to walk you through installing each plugin one by one:
 
-| Plugin | Description |
-|--------|-------------|
-| [plugin-dashboard](plugins/plugin-dashboard) | ASCII dashboard showing tool/plugin usage per turn (badge & box modes) |
-| [amans-tools](plugins/amans-tools) | Personal skills and commands (see below) |
-
-## My Custom Skills & Commands
-
-Bundled in [amans-tools](plugins/amans-tools).
-
-| Type | Name | What it does |
-|------|------|-------------|
-| Command | `/ccusage` | Runs `bunx ccusage` to check Claude Code usage stats |
-| Skill | `excalidraw-skill` | Programmatic Excalidraw canvas via MCP — draw, refine, and export diagrams |
-
-## Marketplace Plugins I Use
-
-Plugins I install from public marketplaces.
-
-| Plugin | Marketplace | Description |
-|--------|-------------|-------------|
-| [compound-engineering](https://github.com/EveryInc/compound-engineering-plugin) | every-marketplace | 29 agents, 22 commands, 19 skills for code review, research, design, and workflow automation |
-| [frontend-design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design) | claude-plugins-official | Frontend design skill for UI/UX implementation |
-| [ralph-loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) | claude-plugins-official | Continuous self-referential loops for iterative development (Ralph Wiggum technique) |
-| [explanatory-output-style](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/explanatory-output-style) | claude-plugins-official | Adds educational insights about implementation choices and codebase patterns |
-| [plugin-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev) | claude-plugins-official | Skills and agents for building Claude Code plugins |
-
-## Settings
-
-```jsonc
-// ~/.claude/settings.json
-{
-  "permissions": {
-    "defaultMode": "bypassPermissions"
-  },
-  "alwaysThinkingEnabled": true
-}
+```
+Read https://github.com/amanaiproduct/amans-claude-plugins and help me install each plugin interactively — show me what each one does and let me pick which ones I want.
 ```
 
-## Replicate My Setup
+## Plugins & Skills
+
+### Custom (included in this repo)
+
+- **plugin-dashboard** — ASCII tool/plugin usage dashboard on every turn (badge & box modes)
+- **amans-tools** — Personal skills and commands:
+  - `/ccusage` — Check Claude Code usage stats
+  - `excalidraw-skill` — Draw and refine Excalidraw diagrams via MCP
+
+### Marketplace
+
+- **[compound-engineering](https://github.com/EveryInc/compound-engineering-plugin)** — 29 agents, 22 commands, 19 skills for code review, research, design, and workflow automation
+- **[frontend-design](https://github.com/anthropics/claude-plugins-official)** — UI/UX implementation skill
+- **[ralph-loop](https://github.com/anthropics/claude-plugins-official)** — Run Claude in a loop until task completion
+- **[explanatory-output-style](https://github.com/anthropics/claude-plugins-official)** — Educational insights about implementation choices
+- **[plugin-dev](https://github.com/anthropics/claude-plugins-official)** — Tools for building Claude Code plugins
+
+## Manual Install
 
 ```bash
-# 1. Add marketplaces
+# Marketplaces
 claude plugin add github:anthropics/claude-plugins-official
 claude plugin add git:https://github.com/EveryInc/compound-engineering-plugin.git
 
-# 2. Install marketplace plugins
+# Marketplace plugins
+claude plugin enable compound-engineering@every-marketplace
 claude plugin enable frontend-design@claude-plugins-official
 claude plugin enable ralph-loop@claude-plugins-official
 claude plugin enable explanatory-output-style@claude-plugins-official
-claude plugin enable compound-engineering@every-marketplace
 claude plugin enable plugin-dev@claude-plugins-official
 
-# 3. Install my custom plugins
+# Custom plugins (clone this repo first)
 claude plugin add dir:~/Projects/amans-claude-plugins
-claude plugin enable plugin-dashboard@local-plugins
-claude plugin enable amans-tools@local-plugins
+claude plugin enable plugin-dashboard@amans-plugins
+claude plugin enable amans-tools@amans-plugins
 ```
