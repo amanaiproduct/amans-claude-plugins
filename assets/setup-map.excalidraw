@@ -1,0 +1,466 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "amans-claude-plugins",
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 280,
+      "y": 0,
+      "width": 420,
+      "height": 45,
+      "text": "Aman's Claude Code Setup",
+      "fontSize": 32,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "bg-every",
+      "type": "rectangle",
+      "x": 20,
+      "y": 70,
+      "width": 290,
+      "height": 310,
+      "backgroundColor": "#dbe4ff",
+      "strokeColor": "#4c6ef5",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "label-every",
+      "type": "text",
+      "x": 55,
+      "y": 82,
+      "width": 220,
+      "height": 28,
+      "strokeColor": "#364fc7",
+      "text": "every-marketplace",
+      "fontSize": 18,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "compound",
+      "type": "rectangle",
+      "x": 40,
+      "y": 130,
+      "width": 250,
+      "height": 60,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#4c6ef5",
+      "label": {
+        "text": "compound-engineering"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "compound-sub",
+      "type": "text",
+      "x": 40,
+      "y": 200,
+      "width": 250,
+      "height": 22,
+      "strokeColor": "#868e96",
+      "text": "29 agents \u00b7 22 commands \u00b7 19 skills",
+      "fontSize": 13,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "compound-desc",
+      "type": "text",
+      "x": 40,
+      "y": 228,
+      "width": 250,
+      "height": 40,
+      "strokeColor": "#5c7cfa",
+      "text": "Plan \u2192 Build \u2192 Review \u2192 Compound",
+      "fontSize": 14,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "bg-anthro",
+      "type": "rectangle",
+      "x": 340,
+      "y": 70,
+      "width": 290,
+      "height": 310,
+      "backgroundColor": "#fff9db",
+      "strokeColor": "#f59f00",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "label-anthro",
+      "type": "text",
+      "x": 363,
+      "y": 82,
+      "width": 244,
+      "height": 28,
+      "strokeColor": "#e67700",
+      "text": "claude-plugins-official",
+      "fontSize": 18,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "ralph",
+      "type": "rectangle",
+      "x": 360,
+      "y": 125,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#f59f00",
+      "label": {
+        "text": "ralph-loop"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "frontend",
+      "type": "rectangle",
+      "x": 360,
+      "y": 182,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#f59f00",
+      "label": {
+        "text": "frontend-design"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "explanatory",
+      "type": "rectangle",
+      "x": 360,
+      "y": 239,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#f59f00",
+      "label": {
+        "text": "explanatory-output-style"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "plugindev",
+      "type": "rectangle",
+      "x": 360,
+      "y": 296,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#f59f00",
+      "label": {
+        "text": "plugin-dev"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "bg-repo",
+      "type": "rectangle",
+      "x": 660,
+      "y": 70,
+      "width": 290,
+      "height": 310,
+      "backgroundColor": "#d3f9d8",
+      "strokeColor": "#37b24d",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "label-repo",
+      "type": "text",
+      "x": 690,
+      "y": 82,
+      "width": 230,
+      "height": 28,
+      "strokeColor": "#2b8a3e",
+      "text": "amans-plugins (this repo)",
+      "fontSize": 18,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "label-plugins",
+      "type": "text",
+      "x": 685,
+      "y": 118,
+      "width": 60,
+      "height": 18,
+      "strokeColor": "#868e96",
+      "text": "Plugin",
+      "fontSize": 12,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "dashboard",
+      "type": "rectangle",
+      "x": 680,
+      "y": 138,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#37b24d",
+      "label": {
+        "text": "plugin-dashboard"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "label-skills",
+      "type": "text",
+      "x": 685,
+      "y": 198,
+      "width": 50,
+      "height": 18,
+      "strokeColor": "#868e96",
+      "text": "Skills",
+      "fontSize": 12,
+      "fontFamily": "1",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "ccusage",
+      "type": "rectangle",
+      "x": 680,
+      "y": 218,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#37b24d",
+      "label": {
+        "text": "/ccusage"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "excali",
+      "type": "rectangle",
+      "x": 680,
+      "y": 275,
+      "width": 250,
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#37b24d",
+      "label": {
+        "text": "/excalidraw"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "claude",
+      "type": "rectangle",
+      "x": 190,
+      "y": 450,
+      "width": 600,
+      "height": 90,
+      "backgroundColor": "#e8deee",
+      "strokeColor": "#7048e8",
+      "strokeWidth": 3,
+      "label": {
+        "text": "Your Claude Code Session"
+      },
+      "roundness": {
+        "type": 3
+      },
+      "fillStyle": "solid",
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1
+    },
+    {
+      "id": "arrow1",
+      "type": "arrow",
+      "x": 316.1535229844156,
+      "y": 350.57369601782216,
+      "strokeColor": "#4c6ef5",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 2
+      },
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          113.52628736450214,
+          94.31414642589414
+        ]
+      ],
+      "startBinding": {
+        "elementId": "bg-every",
+        "focus": 0,
+        "gap": 8
+      },
+      "endBinding": {
+        "elementId": "claude",
+        "focus": 0,
+        "gap": 8
+      }
+    },
+    {
+      "id": "arrow2",
+      "type": "arrow",
+      "x": 488.01849312241853,
+      "y": 387.99862861060103,
+      "strokeColor": "#f59f00",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 2
+      },
+      "createdAt": "2026-02-15T19:27:49.271Z",
+      "updatedAt": "2026-02-15T19:27:49.271Z",
+      "version": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1.0000507921999997,
+          54.00274277879794
+        ]
+      ],
+      "startBinding": {
+        "elementId": "bg-anthro",
+        "focus": 0,
+        "gap": 8
+      },
+      "endBinding": {
+        "elementId": "claude",
+        "focus": 0,
+        "gap": 8
+      }
+    },
+    {
+      "id": "arrow3",
+      "type": "arrow",
+      "x": 653.9259471810776,
+      "y": 354.49204527336207,
+      "strokeColor": "#37b24d",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 2
+      },
+      "createdAt": "2026-02-15T19:27:49.272Z",
+      "updatedAt": "2026-02-15T19:27:49.272Z",
+      "version": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -105.35189436215524,
+          90.3016237389902
+        ]
+      ],
+      "startBinding": {
+        "elementId": "bg-repo",
+        "focus": 0,
+        "gap": 8
+      },
+      "endBinding": {
+        "elementId": "claude",
+        "focus": 0,
+        "gap": 8
+      }
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
