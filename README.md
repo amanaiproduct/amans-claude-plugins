@@ -4,11 +4,11 @@ Everything I use day-to-day with Claude Code — plugins, skills, and settings.
 
 ## Install
 
-Paste this repo URL into Claude Code and ask it to walk you through installing each plugin one by one:
+Paste this into Claude Code:
 
-```
-Read https://github.com/amanaiproduct/amans-claude-plugins and help me install each plugin interactively — show me what each one does and let me pick which ones I want.
-```
+> Read https://github.com/amanaiproduct/amans-claude-plugins
+> and help me install each plugin interactively — show me
+> what each one does and let me pick which ones I want.
 
 ## Plugins & Skills
 
