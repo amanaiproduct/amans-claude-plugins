@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "amans-plugins",
-  "description": "Aman's Claude Code plugins and skills",
+  "description": "Aman's Claude Code skills and plugins",
   "owner": {
     "name": "Aman Khan",
     "email": "aman@amankhan.com"
