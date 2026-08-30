@@ -1,0 +1,4 @@
+interface:
+  display_name: "Private Cloudflare Deploy"
+  short_description: "Deploy and verify private Cloudflare sites"
+  default_prompt: "Use $deploy-private-cloudflare-site to deploy this site privately on Cloudflare with an exact-user sign-in boundary and verify that no anonymous content leaks."

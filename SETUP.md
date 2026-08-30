@@ -44,6 +44,7 @@ To install a skill, copy its folder into `~/.claude/skills/`:
 | excalidraw | `cp -r ~/Projects/amans-skills/skills/excalidraw ~/.claude/skills/` | Draw and refine Excalidraw diagrams programmatically via MCP server |
 | design-for-agents | `cp -r ~/Projects/amans-skills/skills/design-for-agents ~/.claude/skills/` | Design skills, CLIs, docs, and onboarding flows optimized for AI coding agents |
 | google-workspace | `cp -r ~/Projects/amans-skills/skills/google-workspace ~/.claude/skills/` | Setup guide for the gws CLI — OAuth, agent account delegation, headless auth |
+| deploy-private-cloudflare-site | `cp -r ~/Projects/amans-skills/skills/deploy-private-cloudflare-site ~/.claude/skills/` | Deploy and verify private Cloudflare Workers sites with exact-user authentication |
 
 ## Step 5: Google Workspace Access (Optional)
 

@@ -34,6 +34,7 @@ Paste this into a Claude Code session:
 | [excalidraw](skills/excalidraw) | Draw and refine Excalidraw diagrams via MCP |
 | [google-workspace](skills/google-workspace) | Setup guide for the [gws CLI](https://github.com/googleworkspace/cli) — OAuth, agent account delegation, headless auth |
 | [design-for-agents](skills/design-for-agents) | Design skills, CLIs, and docs optimized for AI coding agents |
+| [deploy-private-cloudflare-site](skills/deploy-private-cloudflare-site) | Deploy and verify private Cloudflare Workers sites with exact-user authentication |
 
 ## Manual Install
 
